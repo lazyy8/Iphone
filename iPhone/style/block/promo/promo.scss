@@ -1,0 +1,109 @@
+.promo {
+	text-align: center;
+	padding-top: 50px;
+	background-color: #fbfbfd;
+	&__header {
+		font-weight: 700;
+		font-size: 50px;
+	}
+	&__subheader {
+		font-weight: 500;
+		font-size: 30px;
+		margin-top: 5px;
+	}
+	&__link {
+		display: block;
+		margin-top: 10px;
+		color: #06c;
+		font-weight: 500;
+	}
+	&__img {
+		height: 500px;
+		background-position: 50% 100%;
+		background-repeat: no-repeat;
+	}
+	&__img_iphone13pro {
+		background-image: url(../../img/iphone13.jpg);
+	}
+	&__img_iphone13 {
+		background-image: url(../../img/hero_iphone.jpg);
+	}
+    &_purple {
+        background-color: #36283c;
+    }
+    &__header_purple {
+        color: white;
+    }
+    &__subheader_purple {
+        color: #fec2eb;
+    }
+    &__img_watch {
+        background-image: url(../../img/apple_watch.jpg);
+		background-position: -100% 50%;
+		background-color: #f5f5f7;
+		transition: 2s;
+    }
+	&__img_book_little{
+		background-image: url(../../img/macbookpro.jpg);
+	}
+	&__img_ipad_little{
+		background-image: url(../../img/promo_ipad.jpg);
+	}
+	&__img_airpods_little{
+		background-image: url(../../img/airpods.jpg);
+	}
+	&__img_fitnes_little{
+		background-image: url(../../img/fitnes.jpg);
+	}
+    .promo__header {
+        .promo__img {
+            height: 70px;
+        }
+    }
+	&_little{
+		width: 50%;
+		&_black{
+			background-color: black;
+			h2,h3{
+				color: white;
+			}
+			a{
+				color: rgb(0, 121, 241);
+			}
+		}
+	}
+}
+
+.promo-wrapper{
+	display: flex;
+	&_first{
+		opacity: 0%;
+		transition: 1s;
+	}
+	&_second{
+		opacity: 0%;
+		transition: 1s;
+	}
+}
+
+
+
+
+
+
+
+#score{
+	height: 50px;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid black;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: sans-serif;
+	text-align: center;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+}

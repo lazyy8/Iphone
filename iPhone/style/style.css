@@ -1,0 +1,35 @@
+@import "block/nav/nav.css";
+@import "block/promo/promo.css";
+@import "block/footer/footer.css";
+@import "block/store/store.css";
+@import "block/sup/sup.css";
+@import "block/tv/tv.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    color: #1d1d1f;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+hr{
+    margin: 20px 0;
+    border: none; /* Убираем границу для браузера Firefox */
+    color: lightgray; /* Цвет линии для остальных браузеров */
+    background-color: lightgray; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+}
+.message{
+    position: fixed;
+    width: 180px;
+    height: 75px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    border-radius: 10px;
+    right: 140px;
+    top: 60px; 
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,205 @@
+.promo_TV
+{
+  text-align: center;
+  padding-top: 50px;
+  background-color: #fbfbfd;
+}
+
+.promo__header_TV
+{
+    display: none;
+}
+
+.promo__header_TV1
+{
+    font-size: 40px;
+}
+
+.promo__subheader_TV
+{
+    font-size: 50px;
+}
+
+.promo__subheader_TV1
+{
+    font-size: 22px;
+}
+
+.promo__link_TV
+{
+display: none;
+}
+
+.promo__img{
+  height: 500px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.promo__img1{
+  height: 650px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+
+.promo__img_TV
+{
+  background-image: url(https://www.apple.com/ru/tv-home/images/overview/hero_tv__d8nngabrofue_large.png);
+}
+
+.promo__img_house
+{
+  background-image: url(https://www.apple.com/ru/tv-home/images/overview/hero_homepod_appletv_lockup__ecxlvf764zu6_large.png);
+}
+
+.promo_purple_TV
+{
+  background-color: #f5f5f7;
+}
+
+.promo__header_purple_TV
+{
+  color: rgb(14, 13, 13);
+}
+
+.promo__subheader_purple_TV
+{
+  color: gray;
+  font-size: 22px;
+}
+
+.promo__img_tvplus
+{
+  background-image: url(https://www.apple.com/ru/tv-home/images/overview/screen_fitness__bg84gjzktu9u_large.jpg);
+  background-position: 50% -2500%;
+  background-color: #fbfbfd;
+  transition: 1s;
+  margin-top: 50px;
+}
+
+.promo__img_TV_little
+{
+  background-image: url(../../img/tvplus.png);
+}
+
+.promo__img_Phone_little
+{
+  background-image: url(../../img/tvplus.png);
+}
+
+.promo__img_airpods_little_lampa
+{
+  background-image: url(../../img/lampa.png);
+  margin-top: -150px;
+}
+
+.promo__img_fitnes_little_camera
+{
+  background-image: url(../../img/camera.png);
+  margin-top: -100px;
+}
+
+.promo__img_fitnes_little_hours
+{
+  background-image: url(../../img/hours.png);
+  margin-top: -100px;
+}
+
+.promo .promo__header .promo__img
+{
+  height: 70px;
+}
+
+.promo_little
+{
+  width: 50%;
+  margin-left: 50px;
+}
+
+.promo_little1
+{
+  width: 50%;
+  margin-left: 50px;
+  transition: 2s;
+  box-shadow: 0 0 2px lightblue;
+}
+
+.promo_little2
+{
+  width: 50%;
+  margin-left: 50px;
+  transition: 2s;
+  box-shadow: 0 0 2px lightblue;
+}
+
+.promo_little3
+{
+  width: 50%;
+  margin-left: 50px;
+  transition: 2s;
+  box-shadow: 0 0 2px lightblue;
+}
+
+.promo_little4
+{
+  display: none;
+  width: 50%;
+  margin-left: 50px;
+  transition: 2s;
+  box-shadow: 0 0 2px lightblue;
+}
+
+.promo_little_black_Phone
+{
+  background-color: #fbfbfd;
+  margin-left: 50px;
+}
+
+.promo_little_black h2,.promo_little_black h3
+{
+  color: #fff;
+}
+
+.promo_little_black a
+{
+  color: #0079f1;
+}
+
+.promo-wrapper
+{
+  display: flex;
+}
+
+.promo-wrapper_first_TV
+{
+  opacity: 0%;
+  transition: 2s;
+  background-color: #ffffff;
+  margin-top: 300px;
+}
+
+.promo-wrapper_second_TV
+{
+  opacity: 0%;
+  transition: 1s;
+  width: 97%;
+  margin-top: 2000px;
+}
+
+#score
+{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-align: center;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+}
